@@ -1,0 +1,41 @@
+#logo{
+    margin: auto;
+}
+#links{
+    display: none;
+}
+#owner{
+    flex-direction: column;
+}
+.bg_img{
+    width: 100%;
+}
+.text{
+    width: 100%;
+}
+#organics{
+    flex-direction: column;
+}
+#foods{
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#im3{
+    display: none;
+}
+#visitus{
+    flex-direction: column;
+}
+
+footer{
+    background-color: brown;
+}
+
+#hamberger .line{
+    width: 5px;
+    height: 2px;
+    background-color: black;
+}
+
+

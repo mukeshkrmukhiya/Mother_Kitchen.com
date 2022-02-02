@@ -1,0 +1,231 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    display: flex;
+    width: 100%;
+    /* position: sticky;
+    top: 0px;
+    left: 0px; */
+}
+#logo{
+    display: flex;
+    width: 30%;
+}
+#logo h3{
+    font-size: 1.8rem;
+    padding: 1.2rem;
+}
+#links{
+    padding: 1.5rem;
+    float: left;
+    width: 70%;
+    
+}
+#logo img{
+    height: 100px;
+    width: 120px;
+}
+
+#navbar  ul {
+    list-style: none;
+   
+}
+
+#navbar > ul {
+    background-color: slategray;
+    float: left;
+}
+#navbar #links > ul > li {
+    float: left;
+}
+
+#navbar #links ul li{
+    /* margin: 10px 12px; */
+    padding: 0px 20px;
+    display: block;
+    float: left;
+    position: relative;
+    
+}
+#navbar #links ul li:hover >ul{
+    display: block;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: rgb(204, 32, 32);
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+#navbar #links ul ul{
+    position: absolute;
+    float: left;
+    background-color: rgb(51, 195, 75);
+    display: none;
+    top: 100%;
+    left: 0px;
+    right: 300px;
+}
+/* #navbar #links ul ul::after{
+    background-color: chartreuse;
+    background-size: cover;
+    contain: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+} */
+#navbar #links ul ul li{
+    float: none;
+    position: relative;
+
+}
+#navbar #links ul ul li a{
+    color: black;
+}
+#navbar #links ul ul ul{
+    /* position: relative; */
+    left: 270%;
+    top: 20%;
+}
+#navbar #search {
+    
+    font-size: 1.3rem;
+    width: 197px;
+    position: relative;
+    left: 20%;
+    padding: 4px 10px;
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    background-image: url('img/hbackground.jpg');
+    z-index: -1;
+    background-size: cover;
+    height: 620px;
+    width: 100%;
+    opacity: .5;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 520px;
+    align-items: center;
+}
+#home p{
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+}
+#home h1{
+    font-size: 4.7rem;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+}
+
+.btn{
+    width: 140px;
+    height: 40px;
+    font-size: 1.3rem;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.clbtn{
+    background-color: rgb(25, 144, 25);
+    color: black;
+    
+}
+.clbtn:hover{
+    background-color: chartreuse;
+    cursor: pointer;
+}
+#owner{
+    display: flex;
+   
+}
+.bg_img{
+    height: 800px;
+    width: 50%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 800px;
+    width: 50%;
+    margin: 0px;
+    background-color: rgb(227, 235, 235);
+    padding: 40px 150px;
+    box-sizing: border-box;
+}
+.heading{
+    font-size: 3rem;
+    color: darkgreen;
+    padding: 20px 20px;
+    margin: 10px 10px; 
+}
+.smtxt{
+    font-size: 1.4rem;
+    padding: 20px;
+}
+#owner #cursive{
+    font-size: .8rem;
+    font-family: cursive;
+}
+#organics{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.orgbtn{
+    padding: 10px;
+    border: 3px solid black;
+    font-size: 1rem;
+    margin-left: 0px;
+    font-weight: 600;
+}
+#foods{
+    display: flex;
+    background-color: rgb(141, 141, 101);
+    height: 860px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#foods img{
+    height: 800px;
+    width: 100%;
+    transition: all .3s linear;
+}
+#foods img:hover{
+    /* width: 110%; */
+    height: 820px;
+}
+
+#visitus{
+    display: flex;
+}
+#visitus .text{
+    display: flex;
+   
+    align-items: flex-start;
+    
+}
+footer{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.3rem;
+    background-color: rgb(49, 44, 44);
+}
+
+
+
